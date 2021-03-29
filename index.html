@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ServiNow</title>
+
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="styles/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Quicksand" />
+    <link rel="stylesheet" href="styles/responsive.css">
+
+</head>
+<body>
+    <main>
+        <div class="videoIntro">
+            <video loop muted autoplay class="videoBg">
+                <source src="video/Office workers by day - Timelapse Tuesday 4k.mp4" type="video/mp4">
+           </video>
+        </div>
+        <div class="topo">
+            <div class="container">
+                <button role="button" class="btnLogo">
+                    <img class="serviNow" src="imgs/ServiNowBranco1.png" alt=""> 
+                </button>
+
+                <div class="modo">
+                    <button role="button" class="botao">
+                        <i class="fas fa-house-user"></i>
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-user-tie"></i>
+                    </button>
+                </div>
+                <div class="opcoes">
+                    <button role="button" class="botaoConf">
+                        <i class="fas fa-search"></i>
+                    </button>
+                        <button role="button" class="botaoConf" onclick="openNav()">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="carroseis">
+        
+
+        <div class="frase">Tops Profissionais do mês:</div>
+        <div class="tops">
+            <div id="owlTop" class="owl-carousel owl-theme">
+                <div class="item">
+                    
+                    <div class="container">
+                        <img class="Top" src="imgs/image1.jpg" alt="">
+                        <div class="avaliacao">
+                            <i class="far fa-star"></i>
+                            <div class="nota">
+                                4.9
+                            </div>     
+                        </div>
+                        <div class="nome">
+                            Marcos
+                        </div>           
+                    </div> 
+                    <div class="profissao">
+                        Programador
+                    </div>  
+                </div>
+                <div class="item">
+                        
+                        <div class="container">
+                        <img class="Top" src="imgs/image2.jpg" alt="">
+                            <div class="avaliacao">
+                                <i class="far fa-star"></i>
+                                <div class="nota">4.8</div>
+                            </div> 
+                            <div class="nome">Julio</div> 
+                        </div>   
+                        <div class="profissao">Fotógrafo</div>
+                 </div>    
+                <div class="item">
+                        
+                        <div class="container">
+                        <img class="Top" src="imgs/image3.jpg" alt="">
+                            <div class="avaliacao">
+                                <i class="far fa-star"></i>
+                                <div class="nota">5.0</div>
+                            </div> 
+                            <div class="nome">Ana</div> 
+                        </div>   
+                        <div class="profissao">Advogada</div>
+                 </div>    
+                <div class="item">
+                        
+                        <div class="container">
+                        <img class="Top" src="imgs/image4.jpg" alt="">
+                            <div class="avaliacao">
+                                <i class="far fa-star"></i>
+                                <div class="nota">4.6</div>
+                            </div>  
+                            <div class="nome">Arnaldo</div>
+                        </div>   
+                        <div class="profissao">Encanador</div>
+                 </div>    
+                <div class="item">
+                        
+                        <div class="container">
+                        <img class="Top" src="imgs/image5.jpg" alt="">
+                            <div class="avaliacao">
+                                <i class="far fa-star"></i>
+                                <div class="nota">4.7</div>
+                            </div>  
+                            <div class="nome">Marcelo</div>
+                        </div>   
+                        <div class="profissao">Instrutor de Música</div>
+                 </div>    
+                <div class="item">
+                        
+                        <div class="container">
+                        <img class="Top" src="imgs/image6.jpg" alt="">
+                            <div class="avaliacao">
+                                <i class="far fa-star"></i>
+                                <div class="nota">4.7</div>
+                            </div>  
+                            <div class="nome">Amanda</div>
+                        </div>   
+                        <div class="profissao">Redatora</div>
+                 </div>    
+                <div class="item">
+                        
+                        <div class="container">
+                        <img class="Top" src="imgs/image7.jpg" alt="">
+                            <div class="avaliacao">
+                                <i class="far fa-star"></i>
+                                <div class="nota">4.9</div>
+                            </div>  
+                            <div class="nome">Carla</div>
+                        </div>   
+                        <div class="profissao">Mecânica</div>
+                 </div>    
+                <div class="item">
+                        
+                        <div class="container">
+                        <img class="Top" src="imgs/image8.jpg" alt="">
+                            <div class="avaliacao">
+                                <i class="far fa-star"></i>
+                                <div class="nota">4.9</div>
+                            </div>  
+                            <div class="nome">Aníbal</div>
+                        </div>   
+                        <div class="profissao">Médico</div>
+                 </div>    
+                <div class="item">
+                        
+                        <div class="container">
+                        <img class="Top" src="imgs/image9.jpg" alt="">
+                            <div class="avaliacao">
+                                <i class="far fa-star"></i>
+                                <div class="nota">4.8</div>
+                            </div>  
+                            <div class="nome">João</div>
+                        </div>   
+                        <div class="profissao">Designer</div>
+                 </div>    
+                <div class="item">
+                        
+                        <div class="container">
+                        <img class="Top" src="imgs/image10.jpg" alt="">
+                            <div class="avaliacao">
+                                <i class="far fa-star"></i>
+                                <div class="nota">4.5</div>
+                            </div>  
+                            <div class="nome">Yuri</div>
+                        </div>
+                        <div class="profissao">Garçom</div>   
+                        
+                 </div>    
+                <div class="item">
+                        <div class="container">
+                        <img class="Top" src="imgs/image11.jpg" alt="">
+                            <div class="avaliacao">
+                                <i class="far fa-star"></i>
+                                <div class="nota">4.5</div>
+                            </div>  
+                            <div class="nome">Nilton</div>
+                        </div>   
+                        <div class="profissao">Alfaiate</div>
+                        
+                 </div>    
+            </div>
+        </div>
+        <div class="frase">Precisa de um serviço?</div>
+        <div class="owlServi">
+            <div id="owlTipo" class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="job" src="imgs/jobs/002-freelance.png" alt="">
+                    Designer
+                </div>
+                <div class="item">
+                    <img class="job" src="imgs/jobs/003-gardener.png" alt="">
+                    Jardineiro
+                </div>
+                <div class="item">
+                    <img class="job" src="imgs/jobs/005-worker.png" alt="">
+                    Pedreiro
+                </div>
+                <div class="item">
+                    <img class="job" src="imgs/jobs/006-lawyer.png" alt="">
+                    Advogado
+                </div>
+                <div class="item">
+                    <img class="job" src="imgs/jobs/007-magician.png" alt="">
+                    Eventos Diversos
+                </div>
+                <div class="item">
+                    <img class="job" src="imgs/jobs/008-maid.png" alt="">
+                    Diarista
+                </div>
+                <div class="item">
+                    <img class="job" src="imgs/jobs/010-mechanic.png" alt="">
+                    Mecânico
+                </div>
+                <div class="item">
+                    <img class="job" src="imgs/jobs/011-musician.png" alt="">
+                    Instrutor de Música
+                </div>
+                <div class="item">
+                    <img class="job" src="imgs/jobs/012-doctor.png" alt="">
+                    Médico/ Enfermeiro
+                </div>
+                <div class="item">
+                    <img class="job" src="imgs/jobs/014-painter.png" alt="">
+                    Pintor
+                </div>
+                <div class="item">
+                    <img class="job" src="imgs/jobs/015-photographer.png" alt="">
+                    Fotógrafo
+                </div>
+                <div class="item">
+                    <img class="job" src="imgs/jobs/017-plumber.png" alt="">
+                    Encanador
+                </div>
+                <div class="item">
+                    <img class="job" src="imgs/jobs/026-security man.png" alt="">
+                    Segurança
+                </div>
+                <div class="item">
+                    <img class="job" src="imgs/jobs/019-programmer.png" alt="">
+                    Programador
+                </div>
+                <div class="item">
+                    <img class="job" src="imgs/jobs/027-singer.png" alt="">
+                    Eventos Musicais
+                </div>
+                <div class="item">
+                    <img class="job" src="imgs/jobs/030-tailor.png" alt="">
+                    Alfaiate/ Costureiro
+                </div>
+                <div class="item">
+                    <img class="job" src="imgs/jobs/031-teacher.png" alt="">
+                    Professor Particular
+                </div>
+                <div class="item">
+                    <img class="job" src="imgs/jobs/032-technician.png" alt="">
+                    Técnico/ Reparos
+                </div>
+                <div class="item">
+                    <img class="job" src="imgs/jobs/033-veterinarian.png" alt="">
+                    Veterinário
+                </div>
+                <div class="item">
+                    <img class="job" src="imgs/jobs/034-waiter.png" alt="">
+                    Garçom
+                </div>
+                <div class="item">
+                    <img class="job" src="imgs/jobs/036-writer.png" alt="">
+                    Escritor/ Redator
+                </div>
+            </div>    
+        </div>
+        <div id="mySidenav" class="sidenav">
+            <br/>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <br/>
+            <a href="#">Login</a>
+            <a href="#">Sobre</a>
+            <a href="#">Serviços</a>
+            <a href="#">Contato</a>
+            <a href="#">Ajuda</a>
+          </div>
+          
+          
+    </div>
+
+    <script src="https://kit.fontawesome.com/21ccc5f2f3.js" crossorigin="anonymous"></script>
+    <script src="javascript/owl/jquery.min.js"></script>
+    <script src="javascript/owl/owl.carousel.min.js"></script>
+    <script src="javascript/setupOwl1.js"></script>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+          document.getElementById("main").style.marginRight = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+    </script>
+    <div class="informacoes">
+        <div class="container">
+            <div class="texto">
+            <p class="loremT">Lorem ipsum</p>
+            <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque risus nisi, ut euismod sem gravida eget. Nunc mattis diam in rutrum placerat. Aliquam mi massa, consequat quis libero a, congue consequat sem. In hac habitasse platea dictumst. Aliquam facilisis sem et dignissim congue. Etiam euismod tellus eget scelerisque vestibulum. Suspendisse potenti. Nullam ornare sodales sapien et vestibulum. Ut convallis sem ut ipsum lacinia, ac placerat nisl rhoncus.Pellentesque vel mi id libero tempor condimentum. Morbi sodales velit tincidunt, accumsan nisl non, lacinia leo. Integer quis sem elementum, porttitor sem nec, accumsan elit. In hac habitasse platea dictumst. Vestibulum placerat diam sed tellus ullamcorper lacinia. </p>
+            </div>
+            <img class="cliente" src="imgs/clientes-satisfeitos.jpg" alt="">
+        </div>   
+    </div>
+    <div class="fim">
+        <img class="autonomo" src="imgs/autonomo.png" alt="">
+        <div class="textofim"> 
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque risus nisi, ut euismod sem gravida eget. Nunc mattis diam in rutrum placerat. Aliquam mi massa, consequat quis libero a, congue consequat sem. In hac habitasse platea dictumst. Aliquam facilisis sem et dignissim congue. Etiam euismod tellus eget scelerisque vestibulum. Suspendisse potenti. Nullam ornare sodales sapien et vestibulum. Ut convallis sem ut ipsum lacinia, ac placerat nisl rhoncus.Pellentesque vel mi id libero tempor condimentum. Morbi sodales velit tincidunt, accumsan nisl non, lacinia leo. Integer quis sem elementum, porttitor sem nec, accumsan elit. In hac habitasse platea dictumst. Vestibulum placerat diam sed tellus ullamcorper lacinia. </p>
+        </div>     
+    </div>
+    <footer>
+        Lorem ipsum dolor sit amet.
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,21 @@
+@media screen and (max-width: 950px) { 
+    .cliente{
+        display: none;
+    }
+
+    .autonomo{
+        display: none;
+    }
+    .textofim{
+        margin-top: 4%;
+        margin-left: 5%;
+        position:relative;
+        width: 80%;
+        text-align: center;
+        margin-bottom: 4%;
+        align-items: center;
+        flex-direction: row;
+
+    }
+}
+
